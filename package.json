@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelCaeta/portfolio.git"
+  },
+  "author": "Rafael Caetano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelCaeta/portfolio/issues"
+  },
+  "homepage": "https://github.com/RafaelCaeta/portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.2"
+  }
+}
